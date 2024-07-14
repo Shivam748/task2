@@ -1,0 +1,158 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Page 1 styles */
+.page1 {
+  background-image: url('https://wallpapercave.com/wp/wp4446237.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(208, 187, 29);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tribute-heading {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-overflow: clip;
+}
+
+/* Page 2 styles */
+.page2 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+
+/* Container for left and right halves */
+.container {
+  display: flex;
+  width: 80%; /* Adjust as needed */
+  height: 80%; /* Adjust as needed */
+  overflow: hidden;
+}
+
+/* Left half (text content) */
+.left-half {
+  flex: 1;
+  color: rgb(216, 27, 166);
+  overflow: hidden;
+}
+
+/* Right half (image) */
+.right-half {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Content inside left half */
+.left-half .content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading style */
+.heading {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+/* Quote style */
+.quote {
+  font-size: 2.5rem;
+  font-style: italic;
+  color: yellow;
+  opacity: 0.7;
+}
+
+/* Image style */
+.right-half img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Page 3 styles */
+.page3 {
+  background-color: rgb(232, 232, 128);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biography-content {
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+
+.biography-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.biography-content h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.biography-content ul {
+  margin-bottom: 20px;
+}
+
+.biography-content ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.biography-content p {
+  margin-bottom: 10px;
+}
+
+/* Page 4 styles */
+.page4 {
+  background-color: rgb(187, 200, 230);
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.records-content {
+  width: 80%;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.records-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.records-content h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.records-content ul {
+  margin-bottom: 20px;
+}
+
+.records-content ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.records-content p {
+  margin-bottom: 10px;
+}
